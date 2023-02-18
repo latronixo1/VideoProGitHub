@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7D0EC829A0DD7300E8CFE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D0EC729A0DD7300E8CFE1 /* AppDelegate.swift */; };
+		FA7D0ECA29A0DD7300E8CFE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D0EC929A0DD7300E8CFE1 /* ViewController.swift */; };
+		FA7D0ECD29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA7D0ECB29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodeld */; };
+		FA7D0ECF29A0DD7500E8CFE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA7D0ECE29A0DD7500E8CFE1 /* Assets.xcassets */; };
+		FA7D0ED229A0DD7500E8CFE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA7D0ED029A0DD7500E8CFE1 /* Main.storyboard */; };
+		FA7D0EDD29A0DD7500E8CFE1 /* VideoProGitHubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D0EDC29A0DD7500E8CFE1 /* VideoProGitHubTests.swift */; };
+		FA7D0EE729A0DD7500E8CFE1 /* VideoProGitHubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D0EE629A0DD7500E8CFE1 /* VideoProGitHubUITests.swift */; };
+		FA7D0EE929A0DD7500E8CFE1 /* VideoProGitHubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7D0EE829A0DD7500E8CFE1 /* VideoProGitHubUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA7D0ED929A0DD7500E8CFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7D0EBC29A0DD7300E8CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7D0EC329A0DD7300E8CFE1;
+			remoteInfo = VideoProGitHub;
+		};
+		FA7D0EE329A0DD7500E8CFE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7D0EBC29A0DD7300E8CFE1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7D0EC329A0DD7300E8CFE1;
+			remoteInfo = VideoProGitHub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA7D0EC429A0DD7300E8CFE1 /* VideoProGitHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoProGitHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D0EC729A0DD7300E8CFE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA7D0EC929A0DD7300E8CFE1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA7D0ECC29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VideoProGitHub.xcdatamodel; sourceTree = "<group>"; };
+		FA7D0ECE29A0DD7500E8CFE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA7D0ED129A0DD7500E8CFE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA7D0ED329A0DD7500E8CFE1 /* VideoProGitHub.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoProGitHub.entitlements; sourceTree = "<group>"; };
+		FA7D0ED829A0DD7500E8CFE1 /* VideoProGitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoProGitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D0EDC29A0DD7500E8CFE1 /* VideoProGitHubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProGitHubTests.swift; sourceTree = "<group>"; };
+		FA7D0EE229A0DD7500E8CFE1 /* VideoProGitHubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoProGitHubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7D0EE629A0DD7500E8CFE1 /* VideoProGitHubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProGitHubUITests.swift; sourceTree = "<group>"; };
+		FA7D0EE829A0DD7500E8CFE1 /* VideoProGitHubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoProGitHubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA7D0EC129A0DD7300E8CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D0ED529A0DD7500E8CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D0EDF29A0DD7500E8CFE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7D0EBB29A0DD7300E8CFE1 = {
+			isa = PBXGroup;
+			children = (
+				FA7D0EC629A0DD7300E8CFE1 /* VideoProGitHub */,
+				FA7D0EDB29A0DD7500E8CFE1 /* VideoProGitHubTests */,
+				FA7D0EE529A0DD7500E8CFE1 /* VideoProGitHubUITests */,
+				FA7D0EC529A0DD7300E8CFE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA7D0EC529A0DD7300E8CFE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D0EC429A0DD7300E8CFE1 /* VideoProGitHub.app */,
+				FA7D0ED829A0DD7500E8CFE1 /* VideoProGitHubTests.xctest */,
+				FA7D0EE229A0DD7500E8CFE1 /* VideoProGitHubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA7D0EC629A0DD7300E8CFE1 /* VideoProGitHub */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D0EC729A0DD7300E8CFE1 /* AppDelegate.swift */,
+				FA7D0EC929A0DD7300E8CFE1 /* ViewController.swift */,
+				FA7D0ECE29A0DD7500E8CFE1 /* Assets.xcassets */,
+				FA7D0ED029A0DD7500E8CFE1 /* Main.storyboard */,
+				FA7D0ED329A0DD7500E8CFE1 /* VideoProGitHub.entitlements */,
+				FA7D0ECB29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodeld */,
+			);
+			path = VideoProGitHub;
+			sourceTree = "<group>";
+		};
+		FA7D0EDB29A0DD7500E8CFE1 /* VideoProGitHubTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D0EDC29A0DD7500E8CFE1 /* VideoProGitHubTests.swift */,
+			);
+			path = VideoProGitHubTests;
+			sourceTree = "<group>";
+		};
+		FA7D0EE529A0DD7500E8CFE1 /* VideoProGitHubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA7D0EE629A0DD7500E8CFE1 /* VideoProGitHubUITests.swift */,
+				FA7D0EE829A0DD7500E8CFE1 /* VideoProGitHubUITestsLaunchTests.swift */,
+			);
+			path = VideoProGitHubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA7D0EC329A0DD7300E8CFE1 /* VideoProGitHub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D0EEC29A0DD7500E8CFE1 /* Build configuration list for PBXNativeTarget "VideoProGitHub" */;
+			buildPhases = (
+				FA7D0EC029A0DD7300E8CFE1 /* Sources */,
+				FA7D0EC129A0DD7300E8CFE1 /* Frameworks */,
+				FA7D0EC229A0DD7300E8CFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoProGitHub;
+			productName = VideoProGitHub;
+			productReference = FA7D0EC429A0DD7300E8CFE1 /* VideoProGitHub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA7D0ED729A0DD7500E8CFE1 /* VideoProGitHubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D0EEF29A0DD7500E8CFE1 /* Build configuration list for PBXNativeTarget "VideoProGitHubTests" */;
+			buildPhases = (
+				FA7D0ED429A0DD7500E8CFE1 /* Sources */,
+				FA7D0ED529A0DD7500E8CFE1 /* Frameworks */,
+				FA7D0ED629A0DD7500E8CFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7D0EDA29A0DD7500E8CFE1 /* PBXTargetDependency */,
+			);
+			name = VideoProGitHubTests;
+			productName = VideoProGitHubTests;
+			productReference = FA7D0ED829A0DD7500E8CFE1 /* VideoProGitHubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA7D0EE129A0DD7500E8CFE1 /* VideoProGitHubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA7D0EF229A0DD7500E8CFE1 /* Build configuration list for PBXNativeTarget "VideoProGitHubUITests" */;
+			buildPhases = (
+				FA7D0EDE29A0DD7500E8CFE1 /* Sources */,
+				FA7D0EDF29A0DD7500E8CFE1 /* Frameworks */,
+				FA7D0EE029A0DD7500E8CFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA7D0EE429A0DD7500E8CFE1 /* PBXTargetDependency */,
+			);
+			name = VideoProGitHubUITests;
+			productName = VideoProGitHubUITests;
+			productReference = FA7D0EE229A0DD7500E8CFE1 /* VideoProGitHubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA7D0EBC29A0DD7300E8CFE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FA7D0EC329A0DD7300E8CFE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FA7D0ED729A0DD7500E8CFE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FA7D0EC329A0DD7300E8CFE1;
+					};
+					FA7D0EE129A0DD7500E8CFE1 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FA7D0EC329A0DD7300E8CFE1;
+					};
+				};
+			};
+			buildConfigurationList = FA7D0EBF29A0DD7300E8CFE1 /* Build configuration list for PBXProject "VideoProGitHub" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA7D0EBB29A0DD7300E8CFE1;
+			productRefGroup = FA7D0EC529A0DD7300E8CFE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA7D0EC329A0DD7300E8CFE1 /* VideoProGitHub */,
+				FA7D0ED729A0DD7500E8CFE1 /* VideoProGitHubTests */,
+				FA7D0EE129A0DD7500E8CFE1 /* VideoProGitHubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA7D0EC229A0DD7300E8CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D0ECF29A0DD7500E8CFE1 /* Assets.xcassets in Resources */,
+				FA7D0ED229A0DD7500E8CFE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D0ED629A0DD7500E8CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D0EE029A0DD7500E8CFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA7D0EC029A0DD7300E8CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D0ECA29A0DD7300E8CFE1 /* ViewController.swift in Sources */,
+				FA7D0EC829A0DD7300E8CFE1 /* AppDelegate.swift in Sources */,
+				FA7D0ECD29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D0ED429A0DD7500E8CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D0EDD29A0DD7500E8CFE1 /* VideoProGitHubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA7D0EDE29A0DD7500E8CFE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7D0EE729A0DD7500E8CFE1 /* VideoProGitHubUITests.swift in Sources */,
+				FA7D0EE929A0DD7500E8CFE1 /* VideoProGitHubUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA7D0EDA29A0DD7500E8CFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7D0EC329A0DD7300E8CFE1 /* VideoProGitHub */;
+			targetProxy = FA7D0ED929A0DD7500E8CFE1 /* PBXContainerItemProxy */;
+		};
+		FA7D0EE429A0DD7500E8CFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7D0EC329A0DD7300E8CFE1 /* VideoProGitHub */;
+			targetProxy = FA7D0EE329A0DD7500E8CFE1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA7D0ED029A0DD7500E8CFE1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA7D0ED129A0DD7500E8CFE1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA7D0EEA29A0DD7500E8CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA7D0EEB29A0DD7500E8CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA7D0EED29A0DD7500E8CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoProGitHub/VideoProGitHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PKJ57KTJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valentin.VideoProGitHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FA7D0EEE29A0DD7500E8CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VideoProGitHub/VideoProGitHub.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PKJ57KTJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valentin.VideoProGitHub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FA7D0EF029A0DD7500E8CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PKJ57KTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valentin.VideoProGitHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoProGitHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoProGitHub";
+			};
+			name = Debug;
+		};
+		FA7D0EF129A0DD7500E8CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PKJ57KTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valentin.VideoProGitHubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoProGitHub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VideoProGitHub";
+			};
+			name = Release;
+		};
+		FA7D0EF329A0DD7500E8CFE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PKJ57KTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valentin.VideoProGitHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoProGitHub;
+			};
+			name = Debug;
+		};
+		FA7D0EF429A0DD7500E8CFE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z4PKJ57KTJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.valentin.VideoProGitHubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = VideoProGitHub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA7D0EBF29A0DD7300E8CFE1 /* Build configuration list for PBXProject "VideoProGitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D0EEA29A0DD7500E8CFE1 /* Debug */,
+				FA7D0EEB29A0DD7500E8CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D0EEC29A0DD7500E8CFE1 /* Build configuration list for PBXNativeTarget "VideoProGitHub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D0EED29A0DD7500E8CFE1 /* Debug */,
+				FA7D0EEE29A0DD7500E8CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D0EEF29A0DD7500E8CFE1 /* Build configuration list for PBXNativeTarget "VideoProGitHubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D0EF029A0DD7500E8CFE1 /* Debug */,
+				FA7D0EF129A0DD7500E8CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA7D0EF229A0DD7500E8CFE1 /* Build configuration list for PBXNativeTarget "VideoProGitHubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA7D0EF329A0DD7500E8CFE1 /* Debug */,
+				FA7D0EF429A0DD7500E8CFE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA7D0ECB29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA7D0ECC29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodel */,
+			);
+			currentVersion = FA7D0ECC29A0DD7300E8CFE1 /* VideoProGitHub.xcdatamodel */;
+			path = VideoProGitHub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA7D0EBC29A0DD7300E8CFE1 /* Project object */;
+}
